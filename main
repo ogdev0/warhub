@@ -1,0 +1,18 @@
+if game.PlaceId == 10320240572 then --Easy Race Clicker
+	loadstring(game:HttpGet("https://pastebin.com/raw/Zf0xhmUK", true))()
+ 
+elseif game.PlaceId == 10676523834 then --RacingRocket
+	loadstring(game:HttpGet("https://pastebin.com/raw/N7LVdrye", true))() 
+ 
+elseif game.PlaceId == 10714365287 then --Anime Race Clicker
+	loadstring(game:HttpGet("https://pastebin.com/raw/3AG6XA9N", true))() 
+ 
+elseif game.PlaceId == 9980179145 then --Speed Race Clicker
+	loadstring(game:HttpGet("https://pastebin.com/raw/xN62jWej", true))() 
+ 
+elseif game.PlaceId == 10758955211 then --Skydive Race Clicker 
+	loadstring(game:HttpGet("https://pastebin.com/raw/ecRQN7ih", true))()
+ 
+elseif game.PlaceId == 10556774446 then --Jump Race Clicker 
+	loadstring(game:HttpGet("https://pastebin.com/raw/dFgA2igy", true))() 
+end

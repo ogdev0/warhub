@@ -14,5 +14,8 @@ elseif game.PlaceId == 10758955211 then --Skydive Race Clicker
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ogdev0/warhub/main/Skydive%20Clicker.lua", true))()
  
 elseif game.PlaceId == 10556774446 then --Jump Race Clicker 
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ogdev0/warhub/main/Jump%20Race%20Clicker.lua", true))() 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ogdev0/warhub/main/Jump%20Race%20Clicker.lua", true))()
+
+elseif game.PlaceId == 10652184030 then --Jump Clicker
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ogdev0/warhub/main/jumpclicker.lua", true))()
 end

@@ -116,7 +116,7 @@ local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))(
 local MainUI = UILibrary.Load("Wars ScriptHub")
 local FirstPage = MainUI.AddPage("Home")
 
-local FirstLabel = FirstPage.AddLabel("Owner : war#7642")
+local FirstLabel = FirstPage.AddLabel("Owner : war#7777")
 
 
 

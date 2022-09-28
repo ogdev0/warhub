@@ -21,7 +21,7 @@ function dokill1()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage001.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -35,7 +35,7 @@ function dokill2()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage002.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -48,7 +48,7 @@ function dokill3()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage003.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -61,7 +61,7 @@ function dokill4()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage004.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -74,7 +74,7 @@ function dokill5()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage005.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -87,7 +87,7 @@ function dokill6()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage006.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -100,7 +100,7 @@ function dokill7()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage007.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -113,7 +113,7 @@ function dokill8()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage008.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -126,7 +126,7 @@ function dokill9()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage009.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -139,7 +139,7 @@ function dokill10()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage010.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -152,7 +152,7 @@ function dokill11()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage011.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -165,7 +165,7 @@ function dokill12()
             end
             game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage012.monster}))
             --Script end
-            wait(.4)
+            wait(0)
         end
     end)
 end
@@ -303,7 +303,7 @@ end)
 local FirstButton = SecondPage.AddButton("Stage10", function()
     game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game:GetService("Workspace").Worlds.stage010.CFrame
 end)
-local FirstButton = SecondPage.AddButton("Stage1", function()
+local FirstButton = SecondPage.AddButton("Stage11", function()
     game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game:GetService("Workspace").Worlds.stage011.CFrame
 end)
 local FirstButton = SecondPage.AddButton("Stage12", function()

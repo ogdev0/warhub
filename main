@@ -18,4 +18,7 @@ elseif game.PlaceId == 10556774446 then --Jump Race Clicker
 
 elseif game.PlaceId == 10652184030 then --Jump Clicker
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ogdev0/warhub/main/jumpclicker.lua", true))()
+	
+elseif game.PlaceId == 10861112990 then -- Anime Artifacts Simulator 2
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ogdev0/warhub/main/anime%20artifacts%20sim2.lua", true))()
 end

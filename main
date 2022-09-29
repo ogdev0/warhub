@@ -23,5 +23,5 @@ elseif game.PlaceId == 10861112990 then -- Anime Artifacts Simulator 2
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ogdev0/warhub/main/anime%20artifacts%20sim2.lua", true))()
 
 elseif game.PlaceId == 10275942471 then -- Color Race!
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ogdev0/warhub/main/anime%20artifacts%20sim2.lua", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ogdev0/warhub/main/Color%20Race.lua", true))()
 end

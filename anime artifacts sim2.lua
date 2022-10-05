@@ -19,7 +19,9 @@ function dokill1()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage001:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage001.monster}))
+
+            local args = {[1] = workspace.Monsters.stage001.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end
@@ -33,7 +35,8 @@ function dokill2()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage002:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage002.monster}))
+            local args = {[1] = workspace.Monsters.stage002.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end
@@ -46,7 +49,8 @@ function dokill3()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage003:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage003.monster}))
+            local args = {[1] = workspace.Monsters.stage003.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end
@@ -59,7 +63,8 @@ function dokill4()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage004:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage004.monster}))
+            local args = {[1] = workspace.Monsters.stage004.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end
@@ -72,7 +77,8 @@ function dokill5()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage005:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage005.monster}))
+            local args = {[1] = workspace.Monsters.stage005.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end
@@ -85,7 +91,8 @@ function dokill6()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage006:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage006.monster}))
+            local args = {[1] = workspace.Monsters.stage006.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end
@@ -98,7 +105,8 @@ function dokill7()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage007:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage007.monster}))
+            local args = {[1] = workspace.Monsters.stage007.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end
@@ -111,7 +119,8 @@ function dokill8()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage008:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage008.monster}))
+            local args = {[1] = workspace.Monsters.stage008.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end
@@ -124,7 +133,8 @@ function dokill9()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage009:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage009.monster}))
+            local args = {[1] = workspace.Monsters.stage009.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end
@@ -137,7 +147,8 @@ function dokill10()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage010:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage010.monster}))
+            local args = {[1] = workspace.Monsters.stage010.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end
@@ -150,7 +161,8 @@ function dokill11()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage011:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage011.monster}))
+            local args = {[1] = workspace.Monsters.stage011.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end
@@ -163,7 +175,8 @@ function dokill12()
             for i,v in pairs(game:GetService("Workspace").Monsters.stage012:GetChildren()) do
                 v.Name = "monster"
             end
-            game:GetService("ReplicatedStorage").Events.DmgEvent:FireServer(unpack({[1] = workspace.Monsters.stage012.monster}))
+            local args = {[1] = workspace.Monsters.stage012.monster,[2] = game:GetService("Players").LocalPlayer,[3] = "32332482.3472619"}
+            game:GetService("ReplicatedStorage").Events.SkillDmg:FireServer(unpack(args))
             --Script end
             wait(0)
         end

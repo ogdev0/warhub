@@ -1,0 +1,33 @@
+-- https://v3rmillion.net/showthread.php?tid=1023761
+getgenv().AutoCoins = false
+
+
+function DoCoins()
+    spawn (function()
+        while getgenv().AutoCoins == true do
+            --Script start
+
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Coins",4800000,1000000)
+
+            --Script end
+            wait()
+            
+        end
+    end)
+end
+
+
+local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
+local MainUI = UILibrary.Load("Wars ScriptHub")
+local FirstPage = MainUI.AddPage("Home")
+
+local FirstLabel = FirstPage.AddLabel("Owner : war#7777")
+
+
+local FirstToggle = FirstPage.AddToggle("AutoCoins", false, function(bool)
+    getgenv().AutoCoins = bool
+   if bool then 
+    DoCoins();
+    end
+end)
+

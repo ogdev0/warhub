@@ -27,4 +27,7 @@ elseif game.PlaceId == 10275942471 then -- Color Race!
 	
 elseif game.PlaceId == 10439295403 then -- Anime Champions
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ogdev0/warhub/main/Anime%20Champions", true))()
+	
+elseif game.PlaceId == 2248408710 then -- Destruction Simulator
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ogdev0/warhub/main/Destruction%20Simulator", true))()
 end
